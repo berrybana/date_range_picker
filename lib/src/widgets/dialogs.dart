@@ -148,8 +148,8 @@ class DateRangePickerDialogFooter extends StatelessWidget {
   const DateRangePickerDialogFooter({
     super.key,
     this.selectedDateRange,
-    this.cancelText = "Cancel",
-    this.confirmText = "Confirm",
+    this.cancelText = "닫기",
+    this.confirmText = "설정",
   });
 
   final String cancelText;
